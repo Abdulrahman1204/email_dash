@@ -43,7 +43,7 @@ export default function EmailForm() {
       setIsSubmitting(true);
 
       try {
-        const response = await fetch('http://localhost:3000/api/email', {
+        const response = await fetch('https://email-dash.vercel.app/api/email', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
