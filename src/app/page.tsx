@@ -57,7 +57,7 @@ export default function EmailForm() {
           throw new Error(data.message || "فشل في إرسال البريد");
         }
 
-        toast.succesر Townhalls(`تم إرسال دعوة بنجاح إلى ${email}`, {
+        toast.success(`تم إرسال دعوة بنجاح إلى ${email}`, {
           position: "top-right",
           autoClose: 5000,
           rtl: true,
