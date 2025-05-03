@@ -5,7 +5,7 @@ import nodemailer from "nodemailer";
 const EMAIL_SUBJECT = "COO Live Townhall - June 2024";
 const BANNER_IMAGE_URL =
   "https://images.unsplash.com/photo-1431540015161-0bf868a2d407?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80";
-const LIVESTREAM_URL = "https://example.com/livestream";
+const LIVESTREAM_URL = "https://youtube.com/";
 const QR_CODE_URL = `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${encodeURIComponent(
   LIVESTREAM_URL
 )}`;
