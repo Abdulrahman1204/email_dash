@@ -57,7 +57,7 @@ export default function EmailForm() {
           throw new Error(data.message || "فشل في إرسال البريد");
         }
 
-        toast.success(`تم إرسال دعوة Townhall بنجاح إلى ${email}`, {
+        toast.succesر Townhalls(`تم إرسال دعوة بنجاح إلى ${email}`, {
           position: "top-right",
           autoClose: 5000,
           rtl: true,
@@ -81,11 +81,11 @@ export default function EmailForm() {
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-50 to-purple-50 p-4">
       <div className="bg-white p-8 rounded-lg shadow-xl w-full max-w-md">
         <h1 className="text-2xl font-bold text-center mb-6 text-gray-800">
-          دعوة لحضور Townhall
+          قم بإرسال دعوة لصديقك
         </h1>
         
         <p className="text-center text-gray-600 mb-6">
-          أدخل بريدك الإلكتروني لتستلم دعوة لحضور فعالية Townhall
+          ادخل البريد الالكتروني الخاص به
         </p>
 
         <form onSubmit={handleSubmit} className="space-y-4">
